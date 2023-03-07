@@ -1,0 +1,34 @@
+:root{
+    --fuente: 'Outfit', sans-serif;;
+   
+    --white: hsl(0,0%,100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* Esto para que 1rem = 10px */
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+    line-height: 2; /* interlineado */
+    background-color: var(--lightgray);
+}
+
+/*! Globales */
+
+
+/*! Contenedor  */
+
+
+/*! Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
