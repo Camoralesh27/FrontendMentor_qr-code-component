@@ -1,6 +1,5 @@
 :root{
     --fuente: 'Outfit', sans-serif;;
-   
     --white: hsl(0,0%,100%);
     --lightgray: hsl(212, 45%, 89%);
     --grayishBlue: hsl(220, 15%, 55%);
@@ -19,16 +18,58 @@ html{
 body{
     font-family: var(--fuente);
     font-size: 1.5rem;
-    line-height: 2; /* interlineado */
+    line-height: 1.5; /* interlineado */
     background-color: var(--lightgray);
 }
 
-/*! Globales */
-
-
 /*! Contenedor  */
+.contenedor{
+    background-color: var(--white);
+    width: 29rem;
+    height: 50rem;
+    border-radius: 1.2rem;
+    margin: 5% auto 1% auto;
+
+}
+
+.cont__img{
+    display: flex;
+    justify-content: center;
+
+}
+
+img{
+    width: 26rem;
+    border-radius: 1.2rem;
+    margin: 5% 5% 0 5%;
+}
+
+.cont__text{
+    text-align: center;
+}
+
+.cont__text1{
+    font-weight: 700;
+    margin: 7%;
+}
+
+.cont__text2{
+    display: inline-block;
+    font-weight: 400;
+    color: var(--grayishBlue);
+    margin: 0 7% 10% 7%;
+
+}
 
 
 /*! Footer */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--grayishBlue);
+    margin: 0 0 5% 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
