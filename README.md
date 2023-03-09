@@ -4,95 +4,90 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
+---
 ## Overview
+The goal of this challenge is to design a QR component.  
 
-### Screenshot
+---
+## Screenshot
 
-![](./screenshot.jpg)
+### Mobile version.
+![](./images/mobile-ss.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### Desktop version.
+![](./images/desktop-ss.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+---
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+## Links
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [QR-code-component here](https://camoralesh27.github.io/qr-code-component/)
 
-## My process
+---
 
-### Built with
+## My process
+First I began analyzing the design and the blocks that I needed. I selected three blocks, a main block that contain the next two blocks: One for the image, and one for the text. 
+
+```html
+<main class="contenedor">
+    <div class="cont__img">
+      <img src="./images/image-qr-code.png" alt="qr-code">
+    </div> 
+
+
+    <div class="cont__text">
+      <h2 class="cont__text1">Improve your front-end skills by building projects</h2>
+
+      <p class="cont__text2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
+
+```
+The next step was to give it the style. In the mobile version it was going to be the same block but with the background bigger, so I don't used media queries, just the same code but with different margin. 
+
+---
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+---
 
-### What I learned
+## What I learned
+I did strengthen my knowledge about mobile-first workflow. For me, now it's more easy make the mobile version first and then adapt it to the desktop. 
+I became with this first challenge more confident about what can I do coding, more confident about my coding skills. 
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+---
 
-To see how you can add code snippets, see below:
+## Continued development
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I want to learn more about flexbox and grid, and responsive design. I need to be an expert and learn how to do attractive designs like this one. 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+---
 
 ## Author
 
 - Website - [Cristhian Morales](https://www.your-site.com)
 - Frontend Mentor - [@Camoralesh27](https://www.frontendmentor.io/profile/Camoralesh27)
 
-## Acknowledgments
+---
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+## Acknowledgments
+Thank you to my God, for the life and every capacity that I have, because God put in me want to code, and give me the tools to learn to code.
+Thank you to the teacher Juan de la Torre from UDEMY to teach me HTML and CSS. With that knowledge I did this. 
+
+---
 
 
