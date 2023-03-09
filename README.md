@@ -22,7 +22,8 @@ The goal of this challenge is to design a QR component.
 ## Screenshot
 
 ### Mobile version.
-![](./images/mobile-ss.png)
+<!-- ![](./images/mobile-ss.png)  -->
+<img src="./images/mobile-ss.png" height="500">
 
 ### Desktop version.
 ![](./images/desktop-ss.png)
@@ -79,7 +80,6 @@ I want to learn more about flexbox and grid, and responsive design. I need to be
 
 ## Author
 
-- Website - [Cristhian Morales](https://www.your-site.com)
 - Frontend Mentor - [@Camoralesh27](https://www.frontendmentor.io/profile/Camoralesh27)
 
 ---
